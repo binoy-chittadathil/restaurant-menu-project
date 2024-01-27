@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Restaurant Menu</title>
+</head>
+<body>
+
+    <div class="menu">
+        <h1>Restaurant Menu</h1>
+
+        <div class="filter-buttons">
+            <button onclick="filterMenu('all')">All</button>
+            <button onclick="filterMenu('appetizer')">Appetizers</button>
+            <button onclick="filterMenu('main')">Main Courses</button>
+            <button onclick="filterMenu('dessert')">Desserts</button>
+        </div>
+
+        <div class="menu-list" id="menuList">
+            <!-- Menu items will be dynamically added here -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
